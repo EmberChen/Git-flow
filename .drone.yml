@@ -3,4 +3,4 @@ pipeline:
     image: postman/newman_ubuntu1404
     commands:
       - ls
-      - newman --url="https://www.getpostman.com/collections/78d2df0d27e9bdbdd991"
+      - newman run https://www.getpostman.com/collections/78d2df0d27e9bdbdd991 -e https://api.getpostman.com/environments/849094-552f7fce-8226-e6e9-fb53-7dad69a328e8
