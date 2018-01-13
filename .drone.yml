@@ -1,5 +1,5 @@
 pipeline:
   API:
-    image: postman/newman_ubuntu1404
+    image:postman/newman_ubuntu1404
     commands:
-      - ls -al
+      - ls
