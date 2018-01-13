@@ -3,4 +3,4 @@ pipeline:
     image: postman/newman_ubuntu1404
     commands:
       - ls
-      - newman run https://www.getpostman.com/collections/78d2df0d27e9bdbdd991 -e https://api.getpostman.com/environments/849094-552f7fce-8226-e6e9-fb53-7dad69a328e8
+      - newman run https://www.getpostman.com/collections/78d2df0d27e9bdbdd991 -e https://trello-attachments.s3.amazonaws.com/59931a6cfdd5dae167d7ca8c/5a5816191640404a49bc4d69/330ee4ab511531b93d14f398aa60d561/env.json
