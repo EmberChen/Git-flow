@@ -3,4 +3,4 @@ pipeline:
     image: postman/newman_ubuntu1404
     commands:
       - pwd
-      - newman run https://www.getpostman.com/collections/78d2df0d27e9bdbdd991 -e https://trello-attachments.s3.amazonaws.com/59931a6cfdd5dae167d7ca8c/5a5816191640404a49bc4d69/330ee4ab511531b93d14f398aa60d561/env.json --color --html="newman-results.html"
+      - newman run https://www.getpostman.com/collections/78d2df0d27e9bdbdd991 -e https://trello-attachments.s3.amazonaws.com/59931a6cfdd5dae167d7ca8c/5a5816191640404a49bc4d69/330ee4ab511531b93d14f398aa60d561/env.json --color --reporter-html-export result.html
